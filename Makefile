@@ -8,8 +8,8 @@ all:
 	@echo Run \'make install\', \'make extension\', or \'make theme\' to install.
 install:
 	@gnome-extensions install $(EXTENSIONS)
-	@cp -r $(THEMES) $(DESTDIR)
+	@sudo cp -r $(THEMES) $(DESTDIR)
 extension:
 	@gnome-extensions install $(EXTENSIONS)
 theme:
-	@cp -r $(THEMES) $(DESTDIR)
+	@sudo cp -r $(THEMES) $(DESTDIR)
