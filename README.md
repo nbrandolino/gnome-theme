@@ -24,6 +24,7 @@ Install Individually
 ```bash
 $ cd ./gnome-theme
 $ make extension
+$ make theme
 ```
 
 ## License
