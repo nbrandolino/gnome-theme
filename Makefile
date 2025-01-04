@@ -7,8 +7,9 @@ DESTDIR = /usr/share/themes/
 all:
 	@echo Run \'make install\', \'make extension\', or \'make theme\' to install.
 install:
-	@echo $(EXTENSIONS)$@
+	@cp -r $(THEMES) $(DESTDIR)
+	@file $(EXTENSIONS)
 extension:
-	@echo $(EXTENSIONS)$@
+	@echo $(EXTENSIONS)
 theme:
-	@echo test
+	@echo $(THEMES)
