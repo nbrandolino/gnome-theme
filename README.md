@@ -2,8 +2,29 @@
 
 ## About
 
-This repository holds my custom gnome shell theme and various gnome extensions.
+This repository holds my custom gnome shell theme and various gnome extensions for easy download.
 
+## Prerequisites
+
+The installation requires the following to run:
+
+- Linux-based operating system.
+- Gnome DE.
+- Root or appropriate permissions to use copy the files.
+
+Install All
+-----------
+```bash
+$ cd ./gnome-theme
+$ make install
+```
+
+Install Individually
+--------------------
+```bash
+$ cd ./gnome-theme
+$ make extension
+```
 
 ## License
 
