@@ -1,51 +1,53 @@
 # Gnome Extensions and Themes
-
-## About
-
 This repository holds my custom gnome shell theme and various gnome extensions for easy download.
 
-## Prerequisites
+## Themes
+1. **Adwaita-dark-custom**:
+    - Custom theme based off the existing Adwaita-dark theme.
 
-The installation requires the following to run:
+## Extensions
+1. **Dash to Dock**:
+    - A dock for the Gnome Shell.
+    - https://extensions.gnome.org/extension/307/dash-to-dock/
+2. **Desktop Icons NG (DING)**:
+    - Adds icons to the desktop.
+    - https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/
+3. **Logo Menu**:
+    - Menu similar to Apple's macOS menu for the GNOME Desktop.
+    - https://extensions.gnome.org/extension/4451/logo-menu/
+4. **Space Bar**:
+    - Replaces the top-panel workspace indicator with an i3-like workspaces bar.
+    - https://extensions.gnome.org/extension/5090/space-bar/
+5. **Vitals**:
+    - Monitor all of your vital sensors.
+    - https://extensions.gnome.org/extension/1460/vitals/
 
-- Linux-based operating system.
-- Gnome DE.
-- Root or appropriate permissions to use copy the files.
-
-Install All
------------
+## Install All
+To install all, use the following commands:
 ```bash
-$ cd ./gnome-theme
-$ make install
+cd ./grub-theme
+```
+```bash
+make install
 ```
 
-Install Individually
---------------------
+## Install Individually
+To install Individually, use the following commands:
 ```bash
-$ cd ./gnome-theme
-$ make extension
-$ make theme
+cd ./grub-theme
 ```
+1. **Extensions**:
+    ```bash
+    make extension
+    ```
+2. **Themes**:
+    ```bash
+    make theme
+    ```
 
 ## License
+This theme is licensed under the GNU General Public License (GPL). See ./LICENSE for more details.
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 3 of the License, or
-    any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
-    See './LICENSE' for more information.
-
-## Original author
-
-Nick Brandolino aka nbrandolino
+## Contact
+nbrandolino
 nickbrandolino134@gmail.com
