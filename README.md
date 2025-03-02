@@ -24,13 +24,14 @@ This repository holds my custom gnome shell theme and various gnome extensions f
 
 ## Installation
 ### Install All
-To install all, use the following commands:
-```bash
-cd ./grub-theme
-```
-```bash
-make install
-```
+1. Naviage to the project directory:
+    ```bash
+    cd ./grub-theme
+    ```
+2. Install:
+    ```bash
+    make install
+    ```
 
 ### Install Individually
 To install Individually, use the following commands:
