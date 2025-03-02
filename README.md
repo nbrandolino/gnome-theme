@@ -22,7 +22,8 @@ This repository holds my custom gnome shell theme and various gnome extensions f
     - Monitor all of your vital sensors.
     - https://extensions.gnome.org/extension/1460/vitals/
 
-## Install All
+## Installation
+### Install All
 To install all, use the following commands:
 ```bash
 cd ./grub-theme
@@ -31,7 +32,7 @@ cd ./grub-theme
 make install
 ```
 
-## Install Individually
+### Install Individually
 To install Individually, use the following commands:
 ```bash
 cd ./grub-theme
@@ -49,5 +50,5 @@ cd ./grub-theme
 This theme is licensed under the GNU General Public License (GPL). See ./LICENSE for more details.
 
 ## Contact
-nbrandolino
-nickbrandolino134@gmail.com
+- **Author**: nbrandolino
+- **Email**: [nickbrandolino134@gmail.com](mailto:nickbrandolino134@gmail.com)
