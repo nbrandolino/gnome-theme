@@ -1,6 +1,6 @@
-EXTENSIONTARGET = ./extensions
+EXTENSIONTARGET = ./files/extensions
 EXTENSIONS := $(wildcard $(EXTENSIONTARGET)/*)
-THEMETARGET = ./themes
+THEMETARGET = ./files/themes
 THEMES := $(wildcard $(THEMETARGET)/*)
 DESTDIR = /usr/share/themes/
 
